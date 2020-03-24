@@ -1,0 +1,14 @@
+  
+{
+    "name": "codeforindonesia",
+    "version": "0.0.1",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "author": "people@aldnoah.org",
+    "scripts": {
+      "build": "pnpm recursive run build",
+      "clean": "pnpm recursive exec -- rm -rf node_modules; rm shrinkwrap.yaml; rm -rf node_modules",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
